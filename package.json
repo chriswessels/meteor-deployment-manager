@@ -1,0 +1,40 @@
+{
+  "name": "meteor-deployment-manager",
+  "description": "A simple command line utility that aims to make deploying Meteor applications to self-hosted infrastructure as easy as possible.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/chriswessels/meteor-deployment-manager",
+  "author": {
+    "name": "Chris Wessels",
+    "email": "undefined.za@gmail.com",
+    "url": "https://github.com/chriswessels"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chriswessels/meteor-deployment-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chriswessels/meteor-deployment-manager/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/chriswessels/meteor-deployment-manager/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/meteor-deployment-manager",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "prompt": "",
+    "ssh2": "",
+    "underscore": "",
+    "winston": "",
+    "colors": ""
+  },
+  "keywords": ["meteor"],
+  "preferGlobal": true,
+  "bin": {
+    "mdm": "lib/meteor-deployment-manager.js"
+  }
+}
