@@ -30,7 +30,8 @@
     "ssh2": "",
     "underscore": "",
     "winston": "",
-    "colors": ""
+    "colors": "",
+    "fs": ""
   },
   "keywords": ["meteor"],
   "preferGlobal": true,
