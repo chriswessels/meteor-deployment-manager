@@ -31,11 +31,16 @@
     "underscore": "",
     "winston": "",
     "colors": "",
-    "fs": ""
+    "fs-extra": ""
   },
-  "keywords": ["meteor"],
+  "keywords": [
+    "meteor"
+  ],
   "preferGlobal": true,
   "bin": {
     "mdm": "lib/meteor-deployment-manager.js"
+  },
+  "dependencies": {
+    "fs-extra": "~0.6.3"
   }
 }

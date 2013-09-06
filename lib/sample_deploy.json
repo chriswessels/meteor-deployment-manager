@@ -1,0 +1,21 @@
+{
+  "git": {
+    "repository": "",
+    "username": "",
+    "password": ""
+  },
+  "environments": {
+    "staging": {
+      "hostname": "staging.your-domain.com",
+      "port": 22,
+      "username": "meteor",
+      "password": "secure-password"
+    },
+    "production": {
+      "hostname": "your-domain.com",
+      "port": 22,
+      "username": "meteor",
+      "password": "secure-password"
+    }
+  }
+}
