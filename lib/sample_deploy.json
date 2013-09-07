@@ -1,4 +1,8 @@
 {
+  "options": {
+    "meteorite": false,
+    "insecure": false
+  },
   "git": {
     "repository": "",
     "username": "",
@@ -6,16 +10,19 @@
   },
   "environments": {
     "staging": {
-      "hostname": "staging.your-domain.com",
+      "hostname": "staging.your-app.com",
       "port": 22,
       "username": "meteor",
-      "password": "secure-password"
+      "password": "secure-password",
+      "deploymentDirectory": "your-app",
+      "gitBranch": "master"
     },
     "production": {
-      "hostname": "your-domain.com",
+      "hostname": "your-app.com",
       "port": 22,
       "username": "meteor",
-      "password": "secure-password"
+      "password": "secure-password",
+      "gitBranch": "master"
     }
   }
 }
