@@ -4,11 +4,6 @@
     "insecure": false,
     "meteorRelease": "only-required-for-non-meteorite-projects"
   },
-  "git": {
-    "repository": "",
-    "username": "",
-    "password": ""
-  },
   "environments": {
     "staging": {
       "hostname": "staging.your-app.com",
