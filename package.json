@@ -26,7 +26,6 @@
     "node": ">= 0.8.0"
   },
   "devDependencies": {
-    "prompt": "",
     "ssh2": "",
     "underscore": "",
     "winston": "",

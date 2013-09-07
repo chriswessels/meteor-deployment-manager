@@ -1,7 +1,8 @@
 {
   "options": {
     "meteorite": false,
-    "insecure": false
+    "insecure": false,
+    "meteorRelease": "only-required-for-non-meteorite-projects"
   },
   "git": {
     "repository": "",
@@ -15,14 +16,16 @@
       "username": "meteor",
       "password": "secure-password",
       "deploymentDirectory": "your-app",
-      "gitBranch": "master"
+      "gitBranch": "master",
+      "taskName": "your-app"
     },
     "production": {
       "hostname": "your-app.com",
       "port": 22,
       "username": "meteor",
       "password": "secure-password",
-      "gitBranch": "master"
+      "gitBranch": "master",
+      "taskName": "your-app"
     }
   }
 }
