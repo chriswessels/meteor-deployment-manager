@@ -23,23 +23,21 @@
   ],
   "main": "lib/meteor-deployment-manager",
   "engines": {
-    "node": ">= 0.8.0"
-  },
-  "devDependencies": {
-    "ssh2": "",
-    "underscore": "",
-    "winston": "",
-    "colors": "",
-    "fs-extra": ""
+    "node": ">= 0.8.7"
   },
   "keywords": [
-    "meteor"
+    "meteor",
+    "deployment"
   ],
   "preferGlobal": true,
   "bin": {
     "mdm": "lib/meteor-deployment-manager.js"
   },
   "dependencies": {
-    "fs-extra": "~0.6.3"
+    "fs-extra": "",
+    "ssh2": "",
+    "underscore": "",
+    "winston": "",
+    "colors": ""
   }
 }

@@ -1,6 +1,8 @@
 #meteor-deployment-manager
 Meteor Deployment Manager (or MDM for short) is a command line tool intended to automate the process of deploying your [Meteor](http://www.meteor.com/) applications to self-hosted infrastructure like Amazon EC2.
 
+**NB: You have found this project in its infancy. The best documentation at the moment is the source code, so check it out!**
+
 ##Features
 - Written in pure JavaScript.
 - Installs as a global NPM package, accessible from any directory.
@@ -11,7 +13,7 @@ Meteor Deployment Manager (or MDM for short) is a command line tool intended to 
 
 ##How it works
 
-When executing MDM, it will look for a `deploy.json` file in the current working directory by default. You can change this behaviour with the `--project-path` and `--config-file` command line arguments. Your `deploy.json` contains information about your deployment environments and project options.
+MDM makes itself available with the `mdm` command line program. When executing MDM, it will look for a `deploy.json` file in the current working directory by default. You can change this behaviour with the `--project-path` and `--config-file` command line arguments. Your `deploy.json` contains information about your deployment environments and project options.
 
 ###Example usage
 
@@ -38,6 +40,7 @@ When executing MDM, it will look for a `deploy.json` file in the current working
       "port": 22,
       "username": "meteor",
       "password": "secure-password",
+      "deploymentDirectory": "your-app",
       "gitBranch": "master",
       "taskName": "your-app"
     }

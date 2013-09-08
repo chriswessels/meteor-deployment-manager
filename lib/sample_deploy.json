@@ -19,6 +19,7 @@
       "port": 22,
       "username": "meteor",
       "password": "secure-password",
+      "deploymentDirectory": "your-app",
       "gitBranch": "master",
       "taskName": "your-app"
     }
