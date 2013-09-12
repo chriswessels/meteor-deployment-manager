@@ -56,9 +56,21 @@ It performs the following operations:
 
 The `generate` command is used to create a sample `deploy.json` file in the current working directory. You should customise this file to suit your requirements.
 
-###Sample Deployment Configuration
+####Sample Deployment Configuration
 
 You can find a sample `deploy.json` file on GitHub: https://github.com/chriswessels/meteor-deployment-manager/blob/master/lib/sample_deploy.json
+
+###4. mdm start
+
+The `start` command is used to start the instance of Node.js associated with your application (via the Upstart script).
+
+###5. mdm stop
+
+The `stop` command is used to stop the instance of Node.js associated with your application (via the Upstart script).
+
+###6. mdm restart
+
+The `restart` command is used to restart the instance of Node.js associated with your application (via the Upstart script).
 
 ##Installation
 
@@ -67,7 +79,7 @@ MDM is installed using the [Node Package Manager](https://npmjs.org) command lin
 Install MDM with the following command:
 
 ```sh
-npm install -g meteor-deployment-manager
+$ npm install -g meteor-deployment-manager
 ```
 
 ##Project and server requirements
