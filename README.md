@@ -102,6 +102,8 @@ app_root/builds/timestamp # These directories contain the extracted bundle tarba
 app_root/builds/current # This is a symbolic link to the current build directory.
 ```
 
+Looking for a guide to set up your server for use with MDM? Look here: [https://gist.github.com/chriswessels/6540167](https://gist.github.com/chriswessels/6540167).
+
 ##Contributions
 
 1. Fork this repository.
