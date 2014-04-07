@@ -18,7 +18,7 @@
       "hostname": "your-app.com",
       "port": 22,
       "username": "meteor",
-      "password": "secure-password",
+      "privateKey": "path/to/privateKey",
       "deploymentDirectory": "your-app",
       "gitBranch": "master",
       "taskName": "your-app"

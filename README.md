@@ -8,7 +8,7 @@ Meteor Deployment Manager (or MDM for short) is a command line tool intended to 
 - Installs as a global NPM package, accessible from any directory.
 - Supports multiple deployment environments and configurations.
 - Supports the use of Meteor's [Meteorite](https://github.com/oortcloud/meteorite) package manager.
-- TODO: Supports predefined password, private key and keyboard-interactive authentication.
+- Supports predefined password, private key and keyboard-interactive authentication.
 - Keeps a specifiable number of builds.
 - Uses symbolic links to retain build history and allow for instant build rollbacks.
 - Uses [Upstart](http://upstart.ubuntu.com) to monitor Node.js.
@@ -21,7 +21,6 @@ Usage:
 
 ```text
 $ mdm [command] [options]
-
 ```
 
 For a full list of available command line options, please execute `mdm --help`.
