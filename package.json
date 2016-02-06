@@ -38,6 +38,6 @@
     "ssh2": ">= 0.2.21",
     "underscore": "",
     "winston": "",
-    "colors": ""
+    "colorplus": ""
   }
 }
